@@ -606,6 +606,7 @@ final class GameState {
         upgradeLevels = [.tapPower: 6, .critChance: 3, .passiveIncome: 2, .offlineEarnings: 3]
         departmentLevels = [.marketing: 2, .operations: 1, .clientServices: 1]
         affection = [.lola: 4, .adrian: 3, .riley: 2, .jamie: 3, .vincent: 2]
+        totalTaps = 4_820
         hasSeenIntro = true
         let t = Date()
         journal = [
