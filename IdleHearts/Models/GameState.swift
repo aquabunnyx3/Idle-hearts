@@ -214,7 +214,8 @@ final class GameState {
         now = t
 
         let chem = chemistryPerSecond * dt
-        if chem > 0 { addChemistry(chem) }
+        // Demo mode (screenshots) keeps the date bar frozen so captures are stable.
+        if chem > 0 { addChemistry(chem, advancesDate: !isDemo) }
         let notes = loveNotesPerSecond * dt
         if notes > 0 { loveNotes += notes; lifetimeLoveNotes += notes }
 
@@ -346,10 +347,10 @@ final class GameState {
         return TapResult(amount: amount, isCritical: crit, gainedDrama: gotDrama)
     }
 
-    private func addChemistry(_ amount: Double) {
+    private func addChemistry(_ amount: Double, advancesDate: Bool = true) {
         chemistry += amount
         lifetimeChemistry += amount
-        guard completion == nil else { return }
+        guard completion == nil, advancesDate else { return }
         let before = dateFraction
         dateProgress = min(dateProgress + amount, dateRequirement)
         let after = dateFraction

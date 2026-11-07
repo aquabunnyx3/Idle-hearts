@@ -16,8 +16,11 @@ struct HomeView: View {
 
             // Soft vignette at the top so the HUD always reads.
             VStack {
-                LinearGradient(colors: [Theme.plumDeep.opacity(0.55), .clear], startPoint: .top, endPoint: .bottom)
-                    .frame(height: 220)
+                LinearGradient(stops: [.init(color: Theme.plumDeep.opacity(0.85), location: 0),
+                                       .init(color: Theme.plumDeep.opacity(0.55), location: 0.45),
+                                       .init(color: .clear, location: 1)],
+                               startPoint: .top, endPoint: .bottom)
+                    .frame(height: 250)
                     .ignoresSafeArea(edges: .top)
                 Spacer()
             }
@@ -67,8 +70,9 @@ struct TopBar: View {
                 Text("Idle Hearts").font(Theme.logo(36))
                 Image(systemName: "heart.fill").font(.system(size: 16)).offset(y: -8)
             }
-            .foregroundStyle(LinearGradient(colors: [.white, Color(hex: 0xFFD3E8)], startPoint: .top, endPoint: .bottom))
-            .shadow(color: Theme.pink.opacity(0.7), radius: 8)
+            .foregroundStyle(LinearGradient(colors: [.white, Color(hex: 0xFFC2E0)], startPoint: .top, endPoint: .bottom))
+            .shadow(color: Theme.plumDeep.opacity(0.6), radius: 1, y: 1.5)
+            .shadow(color: Theme.pink.opacity(0.9), radius: 10)
             .accessibilityAddTraits(.isHeader)
             Spacer()
             iconButton("gearshape.fill", label: "Settings", action: openSettings)
@@ -132,7 +136,7 @@ struct DateHeader: View {
                         .font(.system(size: 20, weight: .bold, design: .serif).italic())
                         .foregroundStyle(Theme.ink)
                         .lineLimit(1).minimumScaleFactor(0.7)
-                    Label(t.location, systemImage: "mappin.and.ellipse")
+                    Label(t.location, systemImage: "mappin.circle.fill")
                         .font(Theme.body(12, .semibold))
                         .foregroundStyle(Theme.inkSoft)
                 }

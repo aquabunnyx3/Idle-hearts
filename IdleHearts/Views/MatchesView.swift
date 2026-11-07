@@ -97,7 +97,7 @@ struct DateCard: View {
                 Text("\(t.partners.0.info.firstName) & \(t.partners.1.info.firstName)")
                     .font(Theme.body(13, .semibold))
                     .foregroundStyle(Theme.pink)
-                Label(t.location, systemImage: "mappin.and.ellipse")
+                Label(t.location, systemImage: "mappin.circle.fill")
                     .font(Theme.body(12, .medium))
                     .foregroundStyle(Theme.inkSoft)
                 switch status {
