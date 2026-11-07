@@ -1,0 +1,779 @@
+Command line invocation:
+    /Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -project IdleHearts.xcodeproj -scheme IdleHearts -configuration Debug -sdk iphonesimulator -destination "generic/platform=iOS Simulator" -derivedDataPath build/DerivedData CODE_SIGNING_ALLOWED=NO build
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+    SDKROOT = iphonesimulator26.5
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'IdleHearts' in project 'IdleHearts' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode_26.6.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Assets.xcassets
+
+ExecuteExternalTool /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode_26.6.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: d45e4017ca34fc9cccd6d8d5af2bc46a
+Build description path: /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/XCBuildData/d45e4017ca34fc9cccd6d8d5af2bc46a.xcbuilddata
+CreateBuildDirectory /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products
+    cd /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts.xcodeproj
+    builtin-create-build-directory /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products
+
+CreateBuildDirectory /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex
+    cd /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts.xcodeproj
+    builtin-create-build-directory /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex
+
+ClangStatCache /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448ff45c64a1807a658693f2a61704f17a36.sdkstatcache
+    cd /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts.xcodeproj
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -o /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448ff45c64a1807a658693f2a61704f17a36.sdkstatcache
+
+CreateBuildDirectory /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator
+    cd /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts.xcodeproj
+    builtin-create-build-directory /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator
+
+WriteAuxiliaryFile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts-2e5dfc663789e724e3e1edf211158938-VFS-iphonesimulator/all-product-headers.yaml
+    cd /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts.xcodeproj
+    write-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts-2e5dfc663789e724e3e1edf211158938-VFS-iphonesimulator/all-product-headers.yaml
+
+CreateBuildDirectory /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+    cd /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts.xcodeproj
+    builtin-create-build-directory /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/ExplicitPrecompiledModules
+    cd /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts.xcodeproj
+    builtin-create-build-directory /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+    cd /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts.xcodeproj
+    builtin-create-build-directory /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+
+WriteAuxiliaryFile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts_const_extract_protocols.json (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    write-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts.SwiftFileList (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    write-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts.SwiftFileList
+
+WriteAuxiliaryFile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts.SwiftConstValuesFileList (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    write-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts.LinkFileList (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    write-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts.LinkFileList
+
+WriteAuxiliaryFile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts-OutputFileMap.json (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    write-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts_const_extract_protocols.json (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    write-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts.SwiftFileList (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    write-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts.SwiftFileList
+
+WriteAuxiliaryFile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts.SwiftConstValuesFileList (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    write-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts.LinkFileList (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    write-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts.LinkFileList
+
+WriteAuxiliaryFile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts-OutputFileMap.json (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    write-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts.hmap (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    write-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts.hmap
+
+WriteAuxiliaryFile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts.DependencyStaticMetadataFileList (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    write-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts.DependencyMetadataFileList (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    write-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-project-headers.hmap (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    write-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-project-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-own-target-headers.hmap (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    write-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-generated-files.hmap (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    write-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-generated-files.hmap
+
+WriteAuxiliaryFile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-all-target-headers.hmap (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    write-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-all-non-framework-target-headers.hmap (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    write-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-DebugDylibPath-normal-x86_64.txt (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    write-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-DebugDylibPath-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-DebugDylibPath-normal-arm64.txt (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    write-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-DebugDylibPath-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-DebugDylibInstallName-normal-x86_64.txt (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    write-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-DebugDylibInstallName-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-DebugDylibInstallName-normal-arm64.txt (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    write-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-DebugDylibInstallName-normal-arm64.txt
+
+MkDir /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    /bin/mkdir -p /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app
+
+Ld /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/Binary/__preview.dylib normal x86_64 (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator -install_name @rpath/IdleHearts.debug.dylib -Xlinker -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts_dependency_info.dat -o /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/Binary/__preview.dylib
+
+Ld /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/Binary/__preview.dylib normal arm64 (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator -install_name @rpath/IdleHearts.debug.dylib -Xlinker -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts_dependency_info.dat -o /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/Binary/__preview.dylib
+
+MkDir /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/assetcatalog_output/unthinned (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    /bin/mkdir -p /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/assetcatalog_output/unthinned
+
+MkDir /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/assetcatalog_output/thinned (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    /bin/mkdir -p /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/assetcatalog_output/thinned
+
+GenerateAssetSymbols /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Assets.xcassets (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    /Applications/Xcode_26.6.app/Contents/Developer/usr/bin/actool /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Assets.xcassets --compile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app --output-format human-readable-text --notices --warnings --export-dependency-info /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/assetcatalog_dependencies --output-partial-info-plist /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/assetcatalog_generated_info.plist --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --minimum-deployment-target 17.0 --platform iphonesimulator --bundle-identifier com.aquabunnyx3.idlehearts --generate-swift-asset-symbols /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources/GeneratedAssetSymbols.swift --generate-objc-asset-symbols /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources/GeneratedAssetSymbols.h --generate-asset-symbol-index /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/* com.apple.actool.compilation-results */
+/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources/GeneratedAssetSymbols.h
+/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources/GeneratedAssetSymbols.swift
+
+
+CreateUniversalBinary /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/__preview.dylib normal arm64\ x86_64 (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/Binary/__preview.dylib /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/Binary/__preview.dylib -output /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/__preview.dylib
+
+CpResource /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/PrivacyInfo.xcprivacy /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/PrivacyInfo.xcprivacy (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/PrivacyInfo.xcprivacy /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app
+
+CompileAssetCatalogVariant thinned /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Assets.xcassets (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    /Applications/Xcode_26.6.app/Contents/Developer/usr/bin/actool /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Assets.xcassets --compile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/assetcatalog_output/thinned --output-format human-readable-text --notices --warnings --export-dependency-info /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/assetcatalog_dependencies_thinned --output-partial-info-plist /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/assetcatalog_generated_info.plist_thinned --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --minimum-deployment-target 17.0 --platform iphonesimulator
+/* com.apple.actool.compilation-results */
+/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/assetcatalog_generated_info.plist_thinned
+/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/assetcatalog_output/thinned/AppIcon60x60@2x.png
+/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/assetcatalog_output/thinned/AppIcon76x76@2x~ipad.png
+/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/assetcatalog_output/thinned/Assets.car
+
+
+SwiftDriver IdleHearts normal arm64 com.apple.xcode.tools.swift.compiler (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    builtin-SwiftDriver -- /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name IdleHearts -Onone @/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator -F /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator -emit-localized-strings -emit-localized-strings-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64 -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448ff45c64a1807a658693f2a61704f17a36.sdkstatcache -output-file-map /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-generated-files.hmap -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-own-target-headers.hmap -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-project-headers.hmap -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts-Swift.h -working-directory /Users/runner/work/Idle-hearts/Idle-hearts -experimental-emit-module-separately -disable-cmo
+
+SwiftDriver IdleHearts normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    builtin-SwiftDriver -- /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name IdleHearts -Onone @/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios17.0-simulator -g -module-cache-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator -F /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator -emit-localized-strings -emit-localized-strings-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64 -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448ff45c64a1807a658693f2a61704f17a36.sdkstatcache -output-file-map /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-generated-files.hmap -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-own-target-headers.hmap -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-project-headers.hmap -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources-normal/x86_64 -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources/x86_64 -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts-Swift.h -working-directory /Users/runner/work/Idle-hearts/Idle-hearts -experimental-emit-module-separately -disable-cmo
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_AvailabilityInternal-CPB1RE7AEZN19YRCQRZY74NIT.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_Builtin_stdbool-CLGWFN8MF0LXY0MZYPB5TWAFP.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/DeveloperToolsSupport-AHGH3T1DN4MSSWE4251DJNUD4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_Builtin_float-AHIXBZNFXT0PA7FKGTZ92AX6K.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/ptrauth-73BDRJICPN4JLN4EB1R6OR28O.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_Builtin_float-7HFVJG1LNMUDELZFK6ZFXMXQT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_Builtin_stdarg-F5E4A1UUBMQR2PUKP0SSOVET7.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/ptrcheck-7BR7ISCTPS1F2FXXLEENFXRAK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/SwiftShims-BFQJIUVR2FJF13K9N5C6HSRKR.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_AvailabilityInternal-7UA6BE3SBP8HNXO1U84KC8POZ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_SwiftConcurrencyShims-ENLT8X7TWEIHQFK55FR2R6HEE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/ptrauth-2U5GL2HUNOA7OXPNYKEJ6O838.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_Builtin_stddef-EIMENES77VTK14969XOWV1WBT.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_DarwinFoundation1-4I7AOKXTXCGIV7X3ST95P2P1V.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_SwiftConcurrencyShims-CQ3ZSXGD952OJJHJDMW9MK7K0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_Builtin_stddef-2VMMH7I1S3LSN4WXQM8CV8G57.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/DeveloperToolsSupport-988EQDLJ7UQ6968H6M2CXRBRU.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_Builtin_limits-9G8314IFGJQK53X9MXHCBIPUE.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/SwiftShims-10MKR7MVLAFQ5H9BTMJIU3UXT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_Builtin_stdbool-5VLRR11H09E95WN6Y6GFLXSET.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_Builtin_stdarg-60C1ANOBMBUUAYO2GAK7VCFV5.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/ptrcheck-6DXDEXKZWQ22WAYVB0VTKUG0V.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_DarwinFoundation2-5WSORRKPPW4CBPS54692LNBJG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_DarwinFoundation1-EN8Y9A3EJSUAUU3A990EBMM3B.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_DarwinFoundation2-16LMNGT0WNKETBLNZ1S3FAVW2.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_Builtin_limits-1DY0V70661AMXM38EUQIP8GFW.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_Builtin_tgmath-2LAETUVAFZKIDMDB4UTFC17PL.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_Builtin_tgmath-22DTB9WRBYIO8C5MPBY3OIRZO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_Builtin_stdint-EZZ0W8BDMW1TDJGBRYNSK60G2.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/sys_types-4HUKPYJPCBBJZAGL5H1XZW8ZS.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_Builtin_stdint-DED2VDET7N40M8P5S3NCUIQOJ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_DarwinFoundation3-1ZKHKG4PSYF9YDUQNX98RVU5H.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_Builtin_stdatomic-4DXCX6PLKYG7WLW6CY6Y4DA6T.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_DarwinFoundation3-8GHGI244D6QZSQRDVANXZ6DNE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_Builtin_intrinsics-7PLUBHDSDSHKL5E7DS6RN46Y5.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_Builtin_inttypes-CD4VQ7EZZ39UTCRH3PAWH8GE4.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_Builtin_intrinsics-4G5CIQ52NEZOHTMNJ0R8IFVMH.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_Builtin_inttypes-3IH2H7E7NE8340VJU08TF3GKL.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/simd-A00A37MKZKMC82J6B7XU4B5WH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/sys_types-EKBHIOBNAY93O57469GE2UMHK.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/simd-3I21GWNXQN998J6WFZHZNLF1B.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/Darwin-ENMHUBOHMG9WS4PCVAOLCCRCT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/Spatial-38R13105UPDSXPYBIHKWW18LK.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/Spatial-AO9TPS87WQ60ZOIWT4ZJTYVBS.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/ObjectiveC-8DMXC1ZKMI7BZ0SVEHWVJ33SR.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/MachO-66DF83F68SYRKVT2L0IS209MV.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/os_object-2EVDMA8SFU8CZIGUWD29NA5FP.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/Darwin-83WJEYS00NOH9DI33YCYEFZ0A.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/_Builtin_stdatomic-E0HG4YXY9JNLMNS09HI7GVN98.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/os_workgroup-8J6RNMJEUKIRRG56Q0QBWG2E2.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/Dispatch-226XUAF6CJSD75SU28Q8IP9WP.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/CoreFoundation-3JERKRTSJJUKXC6WPH1EQ9F1P.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/dnssd-4JL2CKE40YYB74JIC9D5IL1JY.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/MachO-3F0LTZFO795JJYH6D0JXMRSKB.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/XPC-93KU8QQP9MUSQ7X2RMA3B75P5.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/Security-BRDYDS9QKCL7CYH6Q7WC2EBQ8.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/CoreGraphics-9KK7LI0F660576HAKOL8T8MF8.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/CoreAudioTypes-72L4QTQ67AJ0DMNTTZWERL46Z.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/os-7EFXUBLQTE5Z7KLS0W9ILRUKB.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/CFNetwork-1AMMVQFEG2G95ZVE7RPXEZQ0J.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/CoreAudio-APDZHX2QQHBDJ30U5B84ZMGO1.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/CoreText-71JIM27BZ9TG1H90YC2ZR1I3N.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/Foundation-6PJM3QYGIK4H31PF1OPD8UXTN.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/ImageIO-3XZS3KD42A26JOI2XODA7A0KE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/ObjectiveC-15NXZHO29KP5C7ENC5YLJD74R.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/os_object-24GH4RJKM2FLF0KXYEQPNEF72.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/os_workgroup-9Y88A6MM6I408DC66VSR0V3F2.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/Dispatch-CD0O16E4GP5NDQXNLDPXU4M1D.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/Accessibility-A0E44YNI5LQMXHAMUWZZL6LMN.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/CoreMIDI-EVC3J82BFN1XU2AAG21W3WILJ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/CoreFoundation-BLUJJUWSHAKH4WQSEPN2W2SCF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/dnssd-DO6PII0PZF4Y53NRQJN0UJF9I.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/Symbols-EHXP7WX2VMB69EQ7PHQ09HJFL.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/Security-CVV9I9HPGM5NBG0GLSB3LD3UK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/CoreAudioTypes-CF12DGUF0KH3O1MKZB94QEM3M.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/CoreGraphics-7QWSVYJGBOPZ3DH9LTZOM2ETB.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/OSLog-6I6SP771CZK3QCNSFLGS4B22R.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/UserNotifications-6PA0EI6D9IDXJMY4O8BT2HLE4.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/UIUtilities-CV6AJNQYNCM01D4IU6FEDXSBM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/CoreText-44CXWJG0XZNXNJ7MXP3AH00ER.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/ImageIO-38DG5GCZ73AOQ82G0ISOBMB1J.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/XPC-BKZZTF182R84JEYU8CU9DNZ7R.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/DataDetection-8Q9SXLJTEWQ193H3GGTYEYFFP.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/FileProvider-EOX51XV4ECKTKULA1SKHRGUK4.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/Network-EMD5V47DL9JSZN1JZHRH468CO.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/UniformTypeIdentifiers-2YULL2SVQGM47BWB8M7MTV85L.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/os-4GICVYQJIVGD0T5QBY6VHWGRQ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/IOSurface-B2FTRADSCKKNUYCX4Z59SNJZ9.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/CoreData-V65IQUMY3OOMSQW8MHR1TTKD.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/ModelIO-D3GIU49OA05R7WYSB7YWVGYTR.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/Metal-EKIGNXFL2R06UN1L346POLFYV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/CoreAudio-CHRMVJL1FHKSJ8R2JL7O1I0L6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/CFNetwork-8LKPCYK76R3K8LNWAPL8AR6T0.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/OpenGLES-5NO3KVEY9SDPN96Y0L5ISJZ2.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/AudioToolbox-E0J9EWP0GEZS6L2C5RNKQUSCI.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/Foundation-C3D589F3P5U9LGOHL033YBRPZ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/CoreVideo-67H2C0EGSCKB0D9CAA6054RLL.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/AVRouting-3JW2XUSJ4ZS1M9PDKADNJKHEQ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/CoreMedia-DB5W970XYGQ0TO1KKIL6PCZO9.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/QuartzCore-8SX36J3IONBM8RRDRKO5U1FMZ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/FileProvider-7SU3BTINPNQL7L0J9EV8158B8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/OSLog-AEG009W1NH2UFUYDJUY7LFRTW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/IOSurface-WC2YHAXE9N0TVAFEB8PZJJ6J.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/OpenGLES-7MYHVZ95XJHCC9IJ666MVKCTK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/ModelIO-AF7PUKWGL9F36U5PFEVQPUR9T.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/CoreTransferable-ULYDH8GN8R23BSQ71G21XYMA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/UIUtilities-5M8Q8XWX82PKHD9KQPGI09F0J.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/DataDetection-A067KYV5L9SUXTXILW67V25BV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/Symbols-B3H3VJCHXYKJ7209KMD2EHYCS.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/CoreImage-8OT1NWAN46BK7JMMWOVUT6VQP.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/Network-CV41ZJQ38SZGUH4XS38SQYBGM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/Metal-CMWGQ8YTS66QLFCXYYSFMH9KS.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/CoreMIDI-2P94EXPL6Z9KWURF3MXH0ND6V.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/UniformTypeIdentifiers-EBXZOIQ07TD6N8PTQBI97UJLJ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/UserNotifications-DY0W6NB4YZWQNSD0XO17X4SK4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/CoreVideo-A5J2ZDA9UPTTUSHWKA1UOX4SH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/CoreData-E08JTC1CNTL5C4R0WL0OU87ZC.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/AudioToolbox-MP404J7JF7JGU4W6LQU0V97V.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/CoreMedia-8NXJKE23GPOQX6AB4XY0ZB7RK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/QuartzCore-BDTC0L1503E4XU2RRBRXNF8HO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/CoreImage-4MNH4298M9VIGF6OFT3P422P0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/AVFAudio-JQO6UE6DIK9SDAJE8Z2ZSGAG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/MediaToolbox-5TC231580P5EYT3OK3BKVNIFX.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/AVFAudio-4QN0AREL3ZA2FIOO7GHKR7NO4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/UIKit-DLB07XNLB5GCTB2QCYVZWUY52.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/AVRouting-58L6DH7R29T0LWXJUXJ7Q1C3L.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/SwiftUICore-EQTG213WCMFF7DS3JCIJQW67N.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/MediaToolbox-1E01VSJDL9D8DUJW68BLICDW2.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/AVFoundation-OIYCKRLA1MA9CP8BI6TRJEM8.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/AVFoundation-7Y7CGO9W5EX34A6O8HS4G1CHJ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/Accessibility-2DXH6GOADJ1E5Y5OERPE7ZN6K.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/GLKit-D6HOM7QL18YB9UFV9G7IHEIH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/SwiftUI-7XTLV0MYYJ5MYICH8PLRPDDED.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/SpriteKit-7WT4D1KPMXCDCKRSAHJ9G6E3F.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/SwiftUICore-75CC6KEXFY81OIP7GCVKAE9E4.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/UIKit-9LSVVSZR6NDLUZM7VU7DUJW16.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/CoreTransferable-7AZKIF7B82F7M0QFQ1MV5HAUH.pcm
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ IdleHearts (in target 'IdleHearts' from project 'IdleHearts')
+
+EmitSwiftModule normal arm64 (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal arm64 Compiling\ Overlays.swift,\ SettingsView.swift,\ StoryView.swift,\ Theme.swift,\ GeneratedAssetSymbols.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/Overlays.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/SettingsView.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/StoryView.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/Theme.swift /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'IdleHearts' from project 'IdleHearts')
+
+SwiftCompile normal arm64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/Overlays.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal arm64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/SettingsView.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal arm64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/StoryView.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal arm64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/Theme.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/SwiftUI-BENZUWT0UN38954423KFKZHRG.pcm
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for IdleHearts (in target 'IdleHearts' from project 'IdleHearts')
+
+SwiftDriver\ Compilation\ Requirements IdleHearts normal arm64 com.apple.xcode.tools.swift.compiler (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name IdleHearts -Onone @/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator -F /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator -emit-localized-strings -emit-localized-strings-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64 -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448ff45c64a1807a658693f2a61704f17a36.sdkstatcache -output-file-map /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-generated-files.hmap -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-own-target-headers.hmap -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-project-headers.hmap -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts-Swift.h -working-directory /Users/runner/work/Idle-hearts/Idle-hearts -experimental-emit-module-separately -disable-cmo
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/GLKit-4WAKTN7A1HBSYVBRQBU69AMXQ.pcm
+
+Copy /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.swiftmodule/arm64-apple-ios-simulator.swiftmodule /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts.swiftmodule (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts.swiftmodule /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.swiftmodule/arm64-apple-ios-simulator.swiftmodule
+
+Copy /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.swiftmodule/arm64-apple-ios-simulator.swiftdoc /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts.swiftdoc (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts.swiftdoc /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.swiftmodule/arm64-apple-ios-simulator.swiftdoc
+
+Copy /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.swiftmodule/arm64-apple-ios-simulator.abi.json /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts.abi.json (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts.abi.json /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.swiftmodule/arm64-apple-ios-simulator.abi.json
+
+Copy /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts.swiftsourceinfo (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts.swiftsourceinfo /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/SpriteKit-EN7YE6P1ZXZPHSG4ERUX5HBW8.pcm
+
+SwiftCompile normal arm64 Compiling\ IdleHeartsApp.swift,\ RootView.swift,\ DateScene.swift,\ Content.swift,\ GameState.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/App/IdleHeartsApp.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/App/RootView.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Game/DateScene.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Models/Content.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Models/GameState.swift (in target 'IdleHearts' from project 'IdleHearts')
+
+SwiftCompile normal arm64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/App/IdleHeartsApp.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal arm64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/App/RootView.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal arm64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Game/DateScene.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal arm64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Models/Content.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal arm64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Models/GameState.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftEmitModule normal x86_64 Emitting\ module\ for\ IdleHearts (in target 'IdleHearts' from project 'IdleHearts')
+
+EmitSwiftModule normal x86_64 (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling Overlays.swift, SettingsView.swift, StoryView.swift, Theme.swift, GeneratedAssetSymbols.swift (in target 'IdleHearts' from project 'IdleHearts')
+
+SwiftCompile normal x86_64 Compiling\ IdleHeartsApp.swift,\ RootView.swift,\ DateScene.swift,\ Content.swift,\ GameState.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/App/IdleHeartsApp.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/App/RootView.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Game/DateScene.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Models/Content.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Models/GameState.swift (in target 'IdleHearts' from project 'IdleHearts')
+SwiftCompile normal x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/App/IdleHeartsApp.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/App/RootView.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Game/DateScene.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Models/Content.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Models/GameState.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling IdleHeartsApp.swift, RootView.swift, DateScene.swift, Content.swift, GameState.swift (in target 'IdleHearts' from project 'IdleHearts')
+
+SwiftCompile normal x86_64 Compiling\ Overlays.swift,\ SettingsView.swift,\ StoryView.swift,\ Theme.swift,\ GeneratedAssetSymbols.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/Overlays.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/SettingsView.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/StoryView.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/Theme.swift /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'IdleHearts' from project 'IdleHearts')
+
+SwiftCompile normal x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/Overlays.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/SettingsView.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/StoryView.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/Theme.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftDriverJobDiscovery normal x86_64 Emitting module for IdleHearts (in target 'IdleHearts' from project 'IdleHearts')
+
+SwiftDriver\ Compilation\ Requirements IdleHearts normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name IdleHearts -Onone @/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios17.0-simulator -g -module-cache-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator -F /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator -emit-localized-strings -emit-localized-strings-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64 -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448ff45c64a1807a658693f2a61704f17a36.sdkstatcache -output-file-map /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-generated-files.hmap -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-own-target-headers.hmap -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-project-headers.hmap -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources-normal/x86_64 -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources/x86_64 -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts-Swift.h -working-directory /Users/runner/work/Idle-hearts/Idle-hearts -experimental-emit-module-separately -disable-cmo
+
+SwiftCompile normal arm64 Compiling\ SaveData.swift,\ Feedback.swift,\ AgencyView.swift,\ HomeView.swift,\ MatchesView.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Models/SaveData.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Systems/Feedback.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/AgencyView.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/HomeView.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/MatchesView.swift (in target 'IdleHearts' from project 'IdleHearts')
+SwiftCompile normal arm64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Models/SaveData.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal arm64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Systems/Feedback.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal arm64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/AgencyView.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal arm64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/HomeView.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal arm64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/MatchesView.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftMergeGeneratedHeaders /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources/IdleHearts-Swift.h /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts-Swift.h /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts-Swift.h (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    builtin-swiftHeaderTool -arch arm64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts-Swift.h -arch x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts-Swift.h -o /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources/IdleHearts-Swift.h
+
+SwiftDriverJobDiscovery normal x86_64 Compiling Overlays.swift, SettingsView.swift, StoryView.swift, Theme.swift, GeneratedAssetSymbols.swift (in target 'IdleHearts' from project 'IdleHearts')
+
+Copy /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.swiftmodule/x86_64-apple-ios-simulator.swiftmodule /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts.swiftmodule (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts.swiftmodule /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.swiftmodule/x86_64-apple-ios-simulator.swiftmodule
+
+Copy /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.swiftmodule/x86_64-apple-ios-simulator.swiftdoc /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts.swiftdoc (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts.swiftdoc /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.swiftmodule/x86_64-apple-ios-simulator.swiftdoc
+
+Copy /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.swiftmodule/x86_64-apple-ios-simulator.abi.json /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts.abi.json (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts.abi.json /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.swiftmodule/x86_64-apple-ios-simulator.abi.json
+
+Copy /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts.swiftsourceinfo (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts.swiftsourceinfo /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo
+
+SwiftCompile normal x86_64 Compiling\ SaveData.swift,\ Feedback.swift,\ AgencyView.swift,\ HomeView.swift,\ MatchesView.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Models/SaveData.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Systems/Feedback.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/AgencyView.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/HomeView.swift /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/MatchesView.swift (in target 'IdleHearts' from project 'IdleHearts')
+SwiftCompile normal x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Models/SaveData.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Systems/Feedback.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/AgencyView.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/HomeView.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+SwiftCompile normal x86_64 /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Views/MatchesView.swift (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    
+
+LinkAssetCatalog /Users/runner/work/Idle-hearts/Idle-hearts/IdleHearts/Assets.xcassets (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    builtin-linkAssetCatalog --thinned /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/assetcatalog_output/thinned --thinned-dependencies /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/assetcatalog_dependencies_thinned --thinned-info-plist-content /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/assetcatalog_generated_info.plist_thinned --unthinned /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/assetcatalog_output/unthinned --unthinned-dependencies /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/assetcatalog_dependencies_unthinned --unthinned-info-plist-content /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/assetcatalog_generated_info.plist_unthinned --output /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app --plist-output /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/assetcatalog_generated_info.plist
+note: Emplaced /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/Assets.car (in target 'IdleHearts' from project 'IdleHearts')
+note: Emplaced /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/AppIcon76x76@2x~ipad.png (in target 'IdleHearts' from project 'IdleHearts')
+note: Emplaced /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/AppIcon60x60@2x.png (in target 'IdleHearts' from project 'IdleHearts')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling IdleHeartsApp.swift, RootView.swift, DateScene.swift, Content.swift, GameState.swift (in target 'IdleHearts' from project 'IdleHearts')
+
+ProcessInfoPlistFile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/Info.plist /Users/runner/work/Idle-hearts/Idle-hearts/Config/Info.plist (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    builtin-infoPlistUtility /Users/runner/work/Idle-hearts/Idle-hearts/Config/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/assetcatalog_generated_info.plist -o /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/Info.plist
+
+SwiftDriverJobDiscovery normal arm64 Compiling SaveData.swift, Feedback.swift, AgencyView.swift, HomeView.swift, MatchesView.swift (in target 'IdleHearts' from project 'IdleHearts')
+
+SwiftDriver\ Compilation IdleHearts normal arm64 com.apple.xcode.tools.swift.compiler (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    builtin-Swift-Compilation -- /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name IdleHearts -Onone @/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator -F /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator -emit-localized-strings -emit-localized-strings-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64 -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448ff45c64a1807a658693f2a61704f17a36.sdkstatcache -output-file-map /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-generated-files.hmap -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-own-target-headers.hmap -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-project-headers.hmap -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts-Swift.h -working-directory /Users/runner/work/Idle-hearts/Idle-hearts -experimental-emit-module-separately -disable-cmo
+
+Ld /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/Binary/IdleHearts.debug.dylib normal arm64 (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator -filelist /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts.LinkFileList -install_name @rpath/IdleHearts.debug.dylib -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts.swiftmodule @/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts-linker-args.resp -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -o /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/Binary/IdleHearts.debug.dylib
+
+ConstructStubExecutorLinkFileList /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-ExecutorLinkFileList-normal-arm64.txt (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    construct-stub-executor-link-file-list /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/Binary/IdleHearts.debug.dylib /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-ExecutorLinkFileList-normal-arm64.txt
+note: Using stub executor library with Swift entry point. (in target 'IdleHearts' from project 'IdleHearts')
+
+Ld /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/Binary/IdleHearts normal arm64 (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -isysroot /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-DebugDylibPath-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-DebugDylibInstallName-normal-arm64.txt -Xlinker -filelist -Xlinker /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-ExecutorLinkFileList-normal-arm64.txt /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/Binary/IdleHearts.debug.dylib -o /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/Binary/IdleHearts
+
+SwiftDriverJobDiscovery normal x86_64 Compiling SaveData.swift, Feedback.swift, AgencyView.swift, HomeView.swift, MatchesView.swift (in target 'IdleHearts' from project 'IdleHearts')
+
+SwiftDriver\ Compilation IdleHearts normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    builtin-Swift-Compilation -- /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name IdleHearts -Onone @/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios17.0-simulator -g -module-cache-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator -F /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator -emit-localized-strings -emit-localized-strings-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64 -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448ff45c64a1807a658693f2a61704f17a36.sdkstatcache -output-file-map /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-generated-files.hmap -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-own-target-headers.hmap -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-project-headers.hmap -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources-normal/x86_64 -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources/x86_64 -Xcc -I/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts-Swift.h -working-directory /Users/runner/work/Idle-hearts/Idle-hearts -experimental-emit-module-separately -disable-cmo
+
+Ld /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/Binary/IdleHearts.debug.dylib normal x86_64 (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator -filelist /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts.LinkFileList -install_name @rpath/IdleHearts.debug.dylib -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts.swiftmodule @/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts-linker-args.resp -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -o /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/Binary/IdleHearts.debug.dylib
+
+CreateUniversalBinary /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/IdleHearts.debug.dylib normal arm64\ x86_64 (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/Binary/IdleHearts.debug.dylib /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/Binary/IdleHearts.debug.dylib -output /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/IdleHearts.debug.dylib
+
+ConstructStubExecutorLinkFileList /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-ExecutorLinkFileList-normal-x86_64.txt (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    construct-stub-executor-link-file-list /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/Binary/IdleHearts.debug.dylib /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-ExecutorLinkFileList-normal-x86_64.txt
+note: Using stub executor library with Swift entry point. (in target 'IdleHearts' from project 'IdleHearts')
+
+Ld /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/Binary/IdleHearts normal x86_64 (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios17.0-simulator -isysroot /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-DebugDylibPath-normal-x86_64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-DebugDylibInstallName-normal-x86_64.txt -Xlinker -filelist -Xlinker /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts-ExecutorLinkFileList-normal-x86_64.txt /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/Binary/IdleHearts.debug.dylib -o /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/Binary/IdleHearts
+
+CreateUniversalBinary /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/IdleHearts normal arm64\ x86_64 (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/Binary/IdleHearts /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/Binary/IdleHearts -output /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/IdleHearts
+
+ExtractAppIntentsMetadata (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.6.109.0.eXhU69/Metal.xctoolchain --module-name IdleHearts --sdk-root /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk --xcode-version 17F113 --platform-family iOS --deployment-target 17.0 --bundle-identifier com.aquabunnyx3.idlehearts --output /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app --target-triple arm64-apple-ios17.0-simulator --target-triple x86_64-apple-ios17.0-simulator --binary-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/IdleHearts --dependency-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts_dependency_info.dat --dependency-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts_dependency_info.dat --stringsdata-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --stringsdata-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts.SwiftFileList --source-file-list /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts.SwiftFileList --metadata-file-list /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts.DependencyMetadataFileList --static-metadata-file-list /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts.DependencyStaticMetadataFileList --swift-const-vals-list /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/arm64/IdleHearts.SwiftConstValuesFileList --swift-const-vals-list /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/Objects-normal/x86_64/IdleHearts.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-11-07 18:33:42.946 appintentsmetadataprocessor[2609:11356] Starting appintentsmetadataprocessor export
+2026-11-07 18:33:42.960 appintentsmetadataprocessor[2609:11356] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+
+CopySwiftLibs /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/IdleHearts.debug.dylib --scan-folder /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/Frameworks --scan-folder /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/PlugIns --scan-folder /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/SystemExtensions --scan-folder /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/Extensions --platform iphonesimulator --toolchain /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.6.109.0.eXhU69/Metal.xctoolchain --toolchain /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os --back-deploy-swift-span
+Ignoring --strip-bitcode because --sign was not passed
+
+AppIntentsSSUTraining (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/Info.plist --temp-dir-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/ssu --bundle-id com.aquabunnyx3.idlehearts --product-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app --extracted-metadata-path /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/Metadata.appintents --metadata-file-list /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/IdleHearts.DependencyMetadataFileList --source-file /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/Info.plist --archive-ssu-assets
+2026-11-07 18:33:43.013 appintentsnltrainingprocessor[2630:11404] Parsing options for appintentsnltrainingprocessor
+2026-11-07 18:33:43.014 appintentsnltrainingprocessor[2630:11404] Starting AppIntents SSU YAML Generation
+2026-11-07 18:33:43.021 appintentsnltrainingprocessor[2630:11404] No AppShortcuts found - Skipping.
+
+RegisterExecutionPolicyException /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    builtin-RegisterExecutionPolicyException /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app
+
+Validate /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    builtin-validationUtility /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app -shallow-bundle -infoplist-subpath Info.plist
+
+Touch /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app (in target 'IdleHearts' from project 'IdleHearts')
+    cd /Users/runner/work/Idle-hearts/Idle-hearts
+    /usr/bin/touch -c /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app
+
+** BUILD SUCCEEDED **
+
