@@ -1,0 +1,85 @@
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/IdleHearts.debug.dylib --scan-folder /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/Frameworks --scan-folder /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/PlugIns --scan-folder /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/SystemExtensions --scan-folder /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/Extensions --platform iphonesimulator --toolchain /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.3.7003.10.4q62Tr/Metal.xctoolchain --toolchain /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Products/Debug-iphonesimulator/IdleHearts.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/runner/work/Idle-hearts/Idle-hearts/build/DerivedData/Build/Intermediates.noindex/IdleHearts.build/Debug-iphonesimulator/IdleHearts.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os --back-deploy-swift-span
+Ignoring --strip-bitcode because --sign was not passed
+
+** BUILD SUCCEEDED **
+
+Using simulator 17F0E734-D183-4810-AB97-F27FD9968039
+Monitoring boot status for iPhone 17 Pro Max (17F0E734-D183-4810-AB97-F27FD9968039).
+[2026-11-07 18:35:29 +0000] Status=2, isTerminal=NO, Elapsed=00:59.
+	Waiting on Data Migration
+		Reason:Running plugin com.apple.-0LaunchServicesMigrator (00LaunchServicesMigrator.migrator, user-agnostic)
+		Migration Elapsed:00:53 seconds
+
+[2026-11-07 18:35:30 +0000] Status=2, isTerminal=NO, Elapsed=01:00.
+	Waiting on Data Migration
+		Reason:Running plugin com.apple.-0LaunchServicesMigrator (00LaunchServicesMigrator.migrator, user-agnostic)
+		Migration Elapsed:00:54 seconds
+
+[2026-11-07 18:35:31 +0000] Status=2, isTerminal=NO, Elapsed=01:01.
+	Waiting on Data Migration
+		Reason:Running plugin com.apple.-0LaunchServicesMigrator (00LaunchServicesMigrator.migrator, user-agnostic)
+		Migration Elapsed:00:55 seconds
+
+[2026-11-07 18:35:38 +0000] Status=2, isTerminal=NO, Elapsed=01:08.
+	Waiting on Data Migration
+		Reason:Running plugin com.apple.securityd.KeychainMigrator (KeychainMigrator.migrator, user-agnostic)
+		Migration Elapsed:00:56 seconds
+
+[2026-11-07 18:35:40 +0000] Status=2, isTerminal=NO, Elapsed=01:10.
+	Waiting on Data Migration
+		Reason:Running plugin com.apple.MobileSafari.migrator (MobileSafari.migrator)
+		Migration Elapsed:01:02 seconds
+
+[2026-11-07 18:35:44 +0000] Status=2, isTerminal=NO, Elapsed=01:14.
+	Waiting on Data Migration
+		Reason:Running plugin com.apple.accounts.obsolescencemigrator (AccountsObsolescence.migrator)
+		Migration Elapsed:01:04 seconds
+
+[2026-11-07 18:35:45 +0000] Status=4, isTerminal=NO, Elapsed=01:15.
+	Waiting on System App
+
+[2026-11-07 18:35:46 +0000] Status=4, isTerminal=NO, Elapsed=01:16.
+	Waiting on System App
+
+[2026-11-07 18:35:46 +0000] Status=4, isTerminal=NO, Elapsed=01:16.
+	Waiting on System App
+
+[2026-11-07 18:35:48 +0000] Status=4, isTerminal=NO, Elapsed=01:18.
+	Waiting on System App
+
+[2026-11-07 18:35:48 +0000] Status=4, isTerminal=NO, Elapsed=01:18.
+	Waiting on System App
+
+[2026-11-07 18:35:49 +0000] Status=4, isTerminal=NO, Elapsed=01:19.
+	Waiting on System App
+
+[2026-11-07 18:35:51 +0000] Status=4, isTerminal=NO, Elapsed=01:21.
+	Waiting on System App
+
+[2026-11-07 18:35:57 +0000] Status=4294967295, isTerminal=YES, Elapsed=01:26.
+	Finished
+
+Detected file type 'PNG' from extension
+Wrote screenshot to: results/screenshots/01-home.png
+captured 01-home
+Detected file type 'PNG' from extension
+Wrote screenshot to: results/screenshots/02-matches.png
+captured 02-matches
+Detected file type 'PNG' from extension
+Wrote screenshot to: results/screenshots/03-agency.png
+captured 03-agency
+Detected file type 'PNG' from extension
+Wrote screenshot to: results/screenshots/04-story.png
+captured 04-story
+Detected file type 'PNG' from extension
+Wrote screenshot to: results/screenshots/05-welcome.png
+captured 05-welcome
+Detected file type 'PNG' from extension
+Wrote screenshot to: results/screenshots/06-complete.png
+captured 06-complete
+Detected file type 'PNG' from extension
+Wrote screenshot to: results/screenshots/07-drama.png
+captured 07-drama
+Detected file type 'PNG' from extension
+Wrote screenshot to: results/screenshots/08-first-launch.png
+captured 08-first-launch
