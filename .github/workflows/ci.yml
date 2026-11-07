@@ -1,0 +1,61 @@
+name: CI
+
+on:
+  push:
+    branches-ignore: ["ci/**"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        runner: [macos-26, macos-15]
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Select newest Xcode
+        run: |
+          XC=$(ls -d /Applications/Xcode_*.app | grep -v -i beta | sort -V | tail -1)
+          sudo xcode-select -s "$XC"
+          xcodebuild -version
+
+      - name: Build (simulator)
+        id: build
+        run: |
+          set +e
+          xcodebuild -project IdleHearts.xcodeproj -scheme IdleHearts -configuration Debug \
+            -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath build/DerivedData CODE_SIGNING_ALLOWED=NO build > build.log 2>&1
+          echo "status=$?" >> "$GITHUB_OUTPUT"
+          grep -E "error:|warning:" build.log | sort -u | head -300 > issues.txt
+          tail -60 build.log
+          exit 0
+
+      - name: Screenshots
+        if: steps.build.outputs.status == '0'
+        continue-on-error: true
+        run: scripts/screenshots.sh results/screenshots > results-screens.log 2>&1 || (tail -40 results-screens.log; exit 1)
+
+      - name: Publish results to ci/${{ matrix.runner }} branch
+        if: always()
+        run: |
+          mkdir -p results
+          cp build.log issues.txt results/ 2>/dev/null || true
+          cp results-screens.log results/ 2>/dev/null || true
+          { echo "commit: $GITHUB_SHA"; echo "build_status: ${{ steps.build.outputs.status }}"; xcodebuild -version; } > results/summary.txt
+          cd results
+          git init -q -b "ci/${{ matrix.runner }}"
+          git config user.name "ci-bot"; git config user.email "ci-bot@users.noreply.github.com"
+          git add -A && git commit -qm "CI results for $GITHUB_SHA"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" "HEAD:refs/heads/ci/${{ matrix.runner }}"
+
+      - name: Fail if build failed
+        if: steps.build.outputs.status != '0'
+        run: exit 1

@@ -1,0 +1,12 @@
+.DS_Store
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.ipa
+*.dSYM.zip
+*.p8
+results/
+screenshots/
+fastlane/report.xml
+__pycache__/
